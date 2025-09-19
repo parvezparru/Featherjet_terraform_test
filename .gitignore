@@ -1,0 +1,11 @@
+#Ignore terraform state files
+*.tsstate
+*.tsstate.backup
+.terraform
+
+#Ignore crash logs
+crash.logs
+
+#Ignore IDE/Editor confirgs
+.vscode/
+.idea/
