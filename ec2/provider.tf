@@ -8,7 +8,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "devops-terraform-123"
+    bucket  = "parvez-githubactions"
     key     = "ec2/ec2.tfstate"
     region  = "us-east-1"
     encrypt = true
