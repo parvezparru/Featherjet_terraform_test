@@ -54,5 +54,6 @@ variable "environment_tag" {
     "dev"  = "D"
     "prod" = "P"
   }
+
 }
 
